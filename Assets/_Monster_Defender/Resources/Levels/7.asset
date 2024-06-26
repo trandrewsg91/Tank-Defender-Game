@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6caabf55cf9bc4d9a6c6ae25c67cb0, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  BackgroundMusic: {fileID: 8300000, guid: 2cd735d96862d7742b16e5ba2b204bcd, type: 3}
+  BackGroundSprite: {fileID: 21300000, guid: f67e80db10534c645af36f980f91720a, type: 3}
+  HealthAmount: 170
+  InitTanks: 00000000000000000100000001000000
+  ListWaveConfig:
+  - minEnemyAmount: 6
+    maxEnemyAmount: 8
+    enemyDelayTime: 0.7
+    coinFrequency: 0.5
+    enemyTypeConfigs:
+    - enemyType: 1
+      frequency: 0.5
+    - enemyType: 2
+      frequency: 0.5
+    - enemyType: 3
+      frequency: 0.5
+  - minEnemyAmount: 8
+    maxEnemyAmount: 10
+    enemyDelayTime: 0.5
+    coinFrequency: 0.5
+    enemyTypeConfigs:
+    - enemyType: 1
+      frequency: 0.5
+    - enemyType: 2
+      frequency: 0.5
+    - enemyType: 3
+      frequency: 0.5
+  - minEnemyAmount: 10
+    maxEnemyAmount: 12
+    enemyDelayTime: 0.6
+    coinFrequency: 0.5
+    enemyTypeConfigs:
+    - enemyType: 2
+      frequency: 0.5
+    - enemyType: 3
+      frequency: 0.5
+    - enemyType: 4
+      frequency: 0.5
+  ListBossType: 
